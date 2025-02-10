@@ -18,6 +18,7 @@ class SupabaseClient implements SupabaseClientInterface
         }
 
         $this->url = $url;
+        
         $this->secret = $secret;
         $this->defaultHeaders = [
             "apikey: {$this->secret}",
