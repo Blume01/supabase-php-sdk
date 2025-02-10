@@ -17,7 +17,7 @@ class SupabaseClient implements SupabaseClientInterface
             throw new SupabaseException("URL e API Key do Supabase são obrigatórios.");
         }
 
-        $this->url = rtrim($url, '/') . '/rest/v1/';
+        $this->url = $url;
         $this->secret = $secret;
         $this->defaultHeaders = [
             "apikey: {$this->secret}",
