@@ -1,0 +1,13 @@
+vendor/
+composer.lock
+
+phpunit.xml
+
+/.composer
+
+.DS_Store
+Thumbs.db
+
+*.log
+*.cache
+coverage/

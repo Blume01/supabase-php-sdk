@@ -1,0 +1,14 @@
+{
+    "name": "blume01/supabase-php-sdk",
+    "description": "Uma biblioteca PHP para interagir com o Supabase",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Supabase\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
