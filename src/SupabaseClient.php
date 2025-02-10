@@ -42,7 +42,7 @@ class SupabaseClient implements SupabaseClientInterface
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 10); // Timeout de 10 segundos
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 
         if ($method !== 'GET' && !empty($data)) {
             curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
