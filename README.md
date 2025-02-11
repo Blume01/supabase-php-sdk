@@ -8,8 +8,7 @@ Ideal para aplicações que precisam de **CRUD simples e eficiente**.
 Se você ainda não tem **Composer**, instale primeiro:  
 🔗 [Instruções para instalar Composer](https://getcomposer.org/download/)  
 
-Se você não tiver as **Credenciais** do **Supabase**, se cadastre:
-🔗 [link do site](https://supabase.com)
+Se você não tiver as **Credenciais** do **Supabase**, se cadastre [aqui](https://supabase.com)
 
 Agora instale a biblioteca:
 ```sh
