@@ -75,7 +75,7 @@ Caso algo dê errado, um erro será lançado:
 ```php
 try {
     $response = $supabase->create('users', []);
-} catch (Exception $e) {
+} catch (SupabaseException $e) {
     echo "Erro: " . $e->getMessage();
 }
 ```
